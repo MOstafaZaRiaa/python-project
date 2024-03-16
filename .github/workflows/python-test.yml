@@ -30,4 +30,4 @@ jobs:
     - name: Lint with pylint
       run: |
         pip install pylint
-        pylint your_python_script.py
+        find . -name "*.py" | xargs pylint
