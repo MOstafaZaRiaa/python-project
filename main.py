@@ -1,3 +1,7 @@
+"""
+This module implements a simple Flask API for managing items.
+"""
+
 from flask import Flask, request
 from flask_restful import Resource, Api
 
